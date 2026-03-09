@@ -1,6 +1,5 @@
 "use client"
 import { useState } from "react";
-import axios from "axios";
 
 const EmailSubscription = () => {
     const [email, setEmail] = useState("");
