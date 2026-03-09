@@ -107,7 +107,7 @@ export default function ComingSoon() {
             {/* Footer */}
             <footer className="flex flex-col sm:flex-row gap-2 text-sm opacity-70">
 
-                <p>contact@jwglobalgroup.com</p>
+                <p>contact@jwglobalgrp.com</p>
 
                 <p >
                     © {new Date().getFullYear()} JW Global Group
