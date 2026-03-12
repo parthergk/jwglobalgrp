@@ -14,7 +14,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="absolute inset-0 bg-[#0B1238]/35 -z-10"></div>
+      <div className="absolute inset-0 bg-primary/35 -z-10"></div>
 
         <div className="max-w-2xl text-white mb-20 lg:mb-16">
           
@@ -30,7 +30,7 @@ export default function Hero() {
 
           <div className="flex items-center gap-6 mt-8">
             
-            <button className="bg-white text-[#0B1238] px-4 py-2 rounded-md font-medium hover:bg-gray-200 transition">
+            <button className="bg-white text-primary px-4 py-2 rounded-md font-medium hover:bg-gray-200 transition">
               Explore Our Businesses
             </button>
 

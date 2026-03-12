@@ -19,10 +19,9 @@ const Header = () => {
 
     return (
         <header
-            className={`py-3 fixed top-0 left-0 w-full z-50 transition-all duration-300
-      ${scrolled ? "bg-[#475569] shadow-md" : "bg-transparent"}`}
+            className="py-3 fixed top-0 left-0 w-full z-50 "
         >
-            <nav className="px-6 py-2 flex items-center gap-6 border-y border-[#D1D5DB]/80">
+            <nav className={`px-6 py-2 flex items-center gap-6 border-y border-[#D1D5DB]/80 transition-all duration-300 ${scrolled ? "bg-slate-900/70 backdrop-blur-md border-b border-white/10 shadow-md mx-10 border-none rounded-xl" : "bg-transparent"}`}>
                 <div className="flex items-center gap-3 pr-6 border-r border-[#D1D5DB]/80">
                     <Image
                         src="/logo.png"
