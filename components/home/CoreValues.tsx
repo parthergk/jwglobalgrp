@@ -33,7 +33,7 @@ const valuesb = [
 
 const CoreValues = () => {
     return (
-        <section className="py-16 px-4 sm:px-8 lg:px-10">
+        <section className="py-20 px-4 sm:px-8 lg:px-10">
 
             <div className="flex justify-center mb-6">
                 <TagBtn name="Core Values" />
@@ -77,7 +77,7 @@ const CoreValues = () => {
                 })}
 
             </div>
-            <div className="max-w-4xl mx-auto grid grid-cols-2 grid-rows-2">
+            <div className="max-w-4xl mx-auto grid grid-cols-2 grid-rows-2 lg:grid-rows-1">
 
                 {valuesb.map((value, index) => {
                     const Icon = value.icon

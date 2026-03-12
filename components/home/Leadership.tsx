@@ -3,7 +3,7 @@ import TagBtn from "../TagBtn"
 
 const Leadership = () => {
     return (
-        <section className="py-16 px-4 sm:px-8 lg:px-10">
+        <section className="py-20 px-4 sm:px-8 lg:px-10">
 
             <div className="flex justify-start mb-6">
                 <TagBtn name="Leadership" />
