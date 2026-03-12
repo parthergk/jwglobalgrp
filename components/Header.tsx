@@ -1,5 +1,6 @@
 "use client"
 
+import { Facebook, Instagram, Twitter } from "lucide-react";
 import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react"
@@ -26,8 +27,8 @@ const Header = () => {
                     <Image
                         src="/logo.png"
                         alt="logo"
-                        width={40}
-                        height={40}
+                        width={45}
+                        height={45}
                     />
                     <span className="text-lg font-medium text-white/90">
                         Global Group
@@ -45,9 +46,15 @@ const Header = () => {
 
                     <div className="flex items-center gap-6">
                         <div className="hidden md:flex gap-4 text-sm">
-                            <Link href="#">FB</Link>
-                            <Link href="#">TW</Link>
-                            <Link href="#">IG</Link>
+                            <Link href="#">
+                                <Facebook className=" h-5 w-5 text-white" />
+                            </Link>
+                            <Link href="#">
+                                <Twitter className=" h-5 w-5 text-white" />
+                            </Link>
+                            <Link href="#">
+                                <Instagram className=" h-5 w-5 text-white" />
+                            </Link>
                         </div>
                         <Link
                             href="/contact"
