@@ -1,6 +1,6 @@
 "use client"
 
-import { Cross, Facebook, Instagram, Menu, Twitter, X } from "lucide-react";
+import { Facebook, Instagram, Menu, Twitter, X } from "lucide-react";
 import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react"
@@ -18,6 +18,17 @@ const Header = () => {
         return () => window.removeEventListener("scroll", handleScroll)
     }, [])
 
+    useEffect(() => {
+  if (isOpen) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+  }
+
+  return () => {
+    document.body.style.overflow = "auto";
+  };
+}, [isOpen]);
     return (
         <header
             className="py-3 fixed top-0 left-0 w-full z-50 "
@@ -72,7 +83,7 @@ const Header = () => {
             </nav>
 
             {isOpen && (
-                <nav className="fixed inset-0 z-50 lg:hidden bg-slate-900/90 backdrop-blur-md">
+                <nav className="fixed inset-0 z-50 lg:hidden bg-slate-900/90 backdrop-blur-md overscroll-none">
                     <div className="flex items-center justify-between px-6 py-5 border-b border-white/10">
 
                         <div className="flex items-center gap-2">
