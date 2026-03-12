@@ -23,7 +23,7 @@ const Partnerships = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1px_1fr] gap-8 items-stretch">
 
-          <div className="relative w-full h-75 sm:h-90 lg:h-95 rounded-lg overflow-hidden">
+          <div className="relative w-full h-75 sm:h-90  rounded-lg overflow-hidden">
             <Image
               src="/hero.png"
               alt="Strategic partnership meeting"

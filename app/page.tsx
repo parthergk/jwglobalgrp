@@ -5,6 +5,7 @@ import DivisionsStrip from "@/components/home/DivisionsStrip";
 import Hero from "@/components/home/Hero";
 import Leadership from "@/components/home/Leadership";
 import Partnership from "@/components/home/Partnership";
+import Purpose from "@/components/home/Purpose";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Divisions/>
       <Leadership/>
       <Partnership/>
+      <Purpose/>
     </div>
   );
 }
