@@ -88,8 +88,8 @@ const CoreValues = () => {
                             className={`
           flex flex-col items-center text-center py-5
           border-divider
-          ${index === 0 ? " border-l  border-b lg:border-b-0 col-start-2 lg:row-start-1 lg:col-start-1" : ""}
-          ${index === 1 ? "lg:border-l border-r  row-start-2 lg:row-start-1 col-start-1 lg:col-start-2" : ""}
+          ${index === 0 ? " border-l lg:border-l-0  border-b lg:border-b-0 col-start-2 lg:row-start-1 lg:col-start-1" : ""}
+          ${index === 1 ? "lg:border-l border-r lg:border-r-0  row-start-2 lg:row-start-1 col-start-1 lg:col-start-2" : ""}
         `}
                         >
 

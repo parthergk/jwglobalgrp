@@ -1,5 +1,6 @@
 import About from "@/components/home/About";
 import CoreValues from "@/components/home/CoreValues";
+import Divisions from "@/components/home/Divisions";
 import DivisionsStrip from "@/components/home/DivisionsStrip";
 import Hero from "@/components/home/Hero";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <DivisionsStrip/>
       <About/>
       <CoreValues/>
+      <Divisions/>
     </div>
   );
 }
