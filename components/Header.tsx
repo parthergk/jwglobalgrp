@@ -19,16 +19,16 @@ const Header = () => {
     }, [])
 
     useEffect(() => {
-  if (isOpen) {
-    document.body.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "auto";
-  }
+        if (isOpen) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "auto";
+        }
 
-  return () => {
-    document.body.style.overflow = "auto";
-  };
-}, [isOpen]);
+        return () => {
+            document.body.style.overflow = "auto";
+        };
+    }, [isOpen]);
     return (
         <header
             className="py-3 fixed top-0 left-0 w-full z-50 "

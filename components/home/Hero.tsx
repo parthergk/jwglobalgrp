@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-screen flex items-end px-4 sm:px-8 lg:px-10 pt-28 lg:pt-0">
-      
+    <section className="relative z-10 w-full min-h-screen flex items-end px-4 sm:px-8 lg:px-10 pt-28 lg:pt-0">
+
       <div className="absolute inset-0 -z-10 ">
         <Image
           src="/hero.png"
