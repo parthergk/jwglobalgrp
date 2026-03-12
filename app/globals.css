@@ -8,11 +8,15 @@ body {
 }
 
 @theme {
-  
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-inter);
+  --color-primary: #0B1238;
+  --color-background: #B7C3CF;
+  --color-white: #FFFFFF;
+  --color-text-secondary: #334155;
+  --color-text-muted: #64748B;
+  --color-border: #E2E8F0;
+  --color-card-bg: #FFFFFF;
+  --color-tag-bg: #E3EAF2;
+  --color-footer-bg: #0B1238;
+  --color-footer-text: #E2E8F0;
+  --font-inter: var(--font-inter), sans-serif;
 }
