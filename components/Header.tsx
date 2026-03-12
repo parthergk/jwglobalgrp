@@ -3,11 +3,13 @@
 import { Facebook, Instagram, Menu, Twitter, X } from "lucide-react";
 import Image from "next/image"
 import Link from "next/link"
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react"
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
+    const router = useRouter();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -34,7 +36,7 @@ const Header = () => {
             className="py-3 fixed top-0 left-0 w-full z-50 "
         >
             <nav className={`px-4 sm:px-6 lg:px-10 py-1.5 lg:py-2 flex items-center justify-between gap-6 border-y-0 lg:border-y border-[#D1D5DB]/80 transition-all duration-300 ${scrolled ? "bg-slate-900/70 backdrop-blur-md border-b border-white/10 shadow-md mx-4 lg:mx-10 border-none rounded-xl" : "bg-transparent"}`}>
-                <div className="flex items-center gap-1.5 sm:gap-3 pr-6 border-r-0 lg:border-r border-[#D1D5DB]/80">
+                <div onClick={() => router.push("/")} className=" cursor-pointer flex items-center gap-1.5 sm:gap-3 pr-6 border-r-0 lg:border-r border-[#D1D5DB]/80">
                     <Image
                         src="/logo.png"
                         alt="logo"

@@ -30,39 +30,11 @@ export default function ComingSoon() {
     }, []);
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center text-center p-6 bg-[#B7C3CF] text-[#0B1238]">
-
-            {/* Logo */}
-            <div className="mb-10 flex flex-col items-center">
-
-                <div className="w-24 h-24 flex items-center justify-center">
-                    <Image
-                        src="/logo.png"
-                        alt="logo"
-                        height={434}
-                        width={242}
-                    />
-                </div>
-
-                <p className="mt-4 text-sm tracking-wide">
-                    A.S Grewal (Aman)
-                </p>
-
-                <h1 className="text-xl font-semibold">
-                    JW Global Group
-                </h1>
-
-                <p className="text-sm opacity-80">
-                    Growth with Responsibility
-                </p>
-            </div>
-
-            {/* Divider */}
-            <div className="w-24 h-[1px] bg-[#0B1238] mb-10 opacity-60"></div>
+        <div className="min-h-screen flex flex-col items-center justify-end text-center p-6 bg-[#B7C3CF] text-[#0B1238]">
 
             {/* Heading */}
             <h2 className="text-4xl md:text-5xl font-semibold mb-6">
-                Our Website is Coming Soon
+                This page is under Development
             </h2>
 
             <p className="max-w-lg text-lg opacity-80 mb-10">
@@ -103,17 +75,6 @@ export default function ComingSoon() {
                 <span className="w-2 h-2 bg-[#0B1238] rounded-full animate-bounce delay-150"></span>
                 <span className="w-2 h-2 bg-[#0B1238] rounded-full animate-bounce delay-300"></span>
             </div>
-
-            {/* Footer */}
-            <footer className="flex flex-col sm:flex-row gap-2 text-sm opacity-70">
-
-                <p>contact@jwglobalgrp.com</p>
-
-                <p >
-                    © {new Date().getFullYear()} JW Global Group
-                </p>
-
-            </footer>
 
         </div>
     );
