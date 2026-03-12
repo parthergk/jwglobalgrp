@@ -18,5 +18,6 @@ body {
   --color-tag-bg: #E3EAF2;
   --color-footer-bg: #0B1238;
   --color-footer-text: #E2E8F0;
+  --color-divider: #94A3B8;
   --font-inter: var(--font-inter), sans-serif;
 }
