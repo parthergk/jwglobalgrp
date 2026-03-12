@@ -1,9 +1,7 @@
-import ComingSoon from "@/components/ComingSoon";
-
 export default function Home() {
   return (
-    <>
-    <ComingSoon/>
-    </>
+    <div className=" flex flex-col gap-5">
+      Home
+    </div>
   );
 }
