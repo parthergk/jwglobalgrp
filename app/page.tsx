@@ -1,4 +1,5 @@
 import About from "@/components/home/About";
+import Contact from "@/components/home/Contact";
 import CoreValues from "@/components/home/CoreValues";
 import Divisions from "@/components/home/Divisions";
 import DivisionsStrip from "@/components/home/DivisionsStrip";
@@ -18,6 +19,7 @@ export default function Home() {
       <Leadership/>
       <Partnership/>
       <Purpose/>
+      <Contact/>
     </div>
   );
 }
