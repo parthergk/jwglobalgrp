@@ -1,9 +1,10 @@
-import ComingSoon from '@/components/ComingSoon'
-import React from 'react'
+import Hero from '@/components/about/Hero'
 
 const page = () => {
   return (
-    <><ComingSoon/></>
+    <div className="w-full bg-background space-y-20">
+     <Hero/>
+    </div>
   )
 }
 
