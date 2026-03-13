@@ -3,7 +3,7 @@ import TagBtn from "../TagBtn"
 
 const Partnerships = () => {
   return (
-    <section className="py-20 px-4 sm:px-8 lg:px-10">
+    <section className="py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
 
       <div className="mb-6">
         <TagBtn name="Partnership" />

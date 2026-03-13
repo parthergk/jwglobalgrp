@@ -3,7 +3,7 @@ import TagBtn from "../TagBtn"
 
 const Story = () => {
     return (
-        <section className=" py-20 px-4 sm:px-8 lg:px-10">
+        <section className=" py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
             <TagBtn name="Our Story" />
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 mt-6 items-center">

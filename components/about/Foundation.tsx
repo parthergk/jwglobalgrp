@@ -22,24 +22,16 @@ const stats = [
 
 const Foundation = () => {
   return (
-    <section className="py-20 px-4 sm:px-8 lg:px-10">
-
-      {/* Section Label */}
-
+    <section className="py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
       <div className="mb-6">
         <TagBtn name="Social Impact" />
       </div>
-
-      {/* Heading */}
-
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary leading-tight">
         Jeevan Rakshak <br />
         Prakriti Seva Foundation
       </h2>
 
       <div className="w-full h-px bg-divider my-6"></div>
-
-      {/* Description */}
 
       <div className="space-y-4">
         <p className="text-text-secondary text-sm sm:text-base leading-relaxed max-w-2xl">
@@ -55,11 +47,7 @@ const Foundation = () => {
         </p>
       </div>
 
-      {/* Image + Stats Layout */}
-
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 mt-12 items-start">
-
-        {/* Image */}
 
         <div className="relative lg:border-r border-divider lg:pr-10">
           <div className="relative w-full h-72 sm:h-80 rounded-xl overflow-hidden">

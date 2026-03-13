@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-     <section className="relative z-10 w-full min-h-32 sm:min-h-48 px-4 sm:px-8 lg:px-10 pt-20 sm:pt-24 pb-4">
+     <section className="relative z-10 w-full min-h-32 sm:min-h-48 px-4 sm:px-8 xl:px-10 pt-20 sm:pt-24 pb-4">
         <div className="absolute inset-0 -z-10 ">
           <Image
             src="/hero.png"

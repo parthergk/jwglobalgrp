@@ -10,7 +10,7 @@ import Purpose from "@/components/home/Purpose";
 
 export default function Home() {
   return (
-    <div className="w-full bg-background space-y-20">
+    <div className="w-full bg-background space-y-4 lg:space-y-8 xl:space-y-20">
       <Hero />
       <DivisionsStrip/>
       <About/>

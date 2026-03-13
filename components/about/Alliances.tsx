@@ -26,14 +26,11 @@ const certificates = [
 
 const Alliances = () => {
   return (
-    <section className="py-20 px-4 sm:px-8 lg:px-10">
+    <section className="py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
 
-      {/* Tag */}
       <div className="mb-6">
-        <TagBtn name="Partnerships" />
+        <TagBtn name="Certificates" />
       </div>
-
-      {/* Heading */}
 
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary leading-tight">
         Certifications & Strategic Alliances
@@ -48,7 +45,6 @@ const Alliances = () => {
         professional certifications.
       </p>
 
-      {/* Certificates */}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
 
@@ -57,7 +53,6 @@ const Alliances = () => {
             key={index}
             className="border border-divider rounded-xl overflow-hidden bg-card hover:shadow-md transition"
           >
-            {/* Certificate Image */}
 
             <div className="relative w-full h-48">
               <Image
@@ -68,7 +63,6 @@ const Alliances = () => {
               />
             </div>
 
-            {/* Certificate Info */}
 
             <div className="p-5 space-y-2">
 

@@ -7,7 +7,7 @@ import Story from '@/components/about/Story'
 
 const page = () => {
   return (
-    <div className="w-full bg-background space-y-20">
+    <div className="w-full bg-background space-y-4 lg:space-y-8 xl:space-y-20">
       <Hero />
       <Achivements/>
       <Story />
