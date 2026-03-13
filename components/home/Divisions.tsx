@@ -3,27 +3,27 @@ import Image from "next/image"
 
 const divisions = [
     {
-        logo: "/divisions/grand.png",
+        logo: "/divisions/logo/grand.png",
         title: "Grand Bistro",
         desc: "Fast-growing food service brand offering modern fast food experiences and franchise opportunities.",
     },
     {
-        logo: "/divisions/skill.png",
+        logo: "/divisions/logo/skill.png",
         title: "Skill & Abroad Placement",
         desc: "Professional skill training programs and international workforce placement opportunities.",
     },
     {
-        logo: "/divisions/agro.png",
+        logo: "/divisions/logo/agro.png",
         title: "Agro & Spice Traders",
         desc: "Sourcing and distribution of agricultural products, spices, and food ingredients.",
     },
     {
-        logo: "/divisions/ghar.png",
+        logo: "/divisions/logo/ghar.png",
         title: "Apke Sapno Ka Ghar",
         desc: "Real estate solutions helping clients buy, sell, and invest in properties.",
     },
     {
-        logo: "/divisions/awaaz.png",
+        logo: "/divisions/logo/awaaz.png",
         title: "Dil Ki Awaaz",
         desc: "Podcast and media platform sharing real stories and discussions across industries.",
     },
@@ -57,8 +57,8 @@ const Divisions = () => {
                                 <Image
                                     src={item.logo}
                                     alt={item.title}
-                                    width={28}
-                                    height={28}
+                                    width={36}
+                                    height={36}
                                     className="object-contain"
                                 />
                             </div>
