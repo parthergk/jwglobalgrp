@@ -2,14 +2,14 @@ import Achivements from '@/components/about/Achivements'
 import Alliances from '@/components/about/Alliances'
 import BusinessAreas from '@/components/about/BusinessAreas'
 import Foundation from '@/components/about/Foundation'
-import Hero from '@/components/about/Hero'
+import Hero from '@/components/Hero'
 import Story from '@/components/about/Story'
 
 const page = () => {
   return (
     <div className="w-full bg-background space-y-4 lg:space-y-8 xl:space-y-20">
-      <Hero />
-      <Achivements/>
+
+      <Hero first="About" second="JW Global Group" />      <Achivements />
       <Story />
       <BusinessAreas />
       <Foundation />
