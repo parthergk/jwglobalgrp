@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero"
 import Leader from "@/components/leadership/Leader"
+import LeadershipPhilosophy from "@/components/leadership/LeadershipPhilosophy"
 import Team from "@/components/leadership/Team"
 
 const page = () => {
@@ -8,6 +9,7 @@ const page = () => {
       <Hero first="Meet" second="Our Team" /> 
       <Leader/>   
       <Team/>
+      <LeadershipPhilosophy/>
     </div>
   )
 }
