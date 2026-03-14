@@ -22,9 +22,7 @@ const PartnershipFocus = () => {
   return (
     <section className="py-16 px-4 sm:px-8 lg:px-10">
 
-      <div className="max-w-7xl mx-auto">
-
-        <div className="mb-12">
+      <div className="mb-4 sm:mb-6">
           <TagBtn name="Focus Areas" />
         </div>
 
@@ -33,7 +31,7 @@ const PartnershipFocus = () => {
           {FocusAreas.map((item, index) => (
             <div
               key={index}
-              className="border border-divider rounded-xl p-6 bg-card hover:shadow-md transition"
+              className="border border-divider rounded-sm p-4 bg-card hover:shadow-md transition"
             >
 
               <h3 className="text-lg font-semibold text-primary mb-3">
@@ -49,7 +47,6 @@ const PartnershipFocus = () => {
 
         </div>
 
-      </div>
 
     </section>
   )

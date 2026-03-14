@@ -36,7 +36,7 @@ const Team = () => {
   return (
     <section className=" pt-5 pb-10 md:pt-8 lg:pt-10 md:pb-16 lg:pb-20  px-4 sm:px-8 lg:px-10">
 
-      <div className="mb-3 sm:mb-4">
+      <div className="mb-4 sm:mb-6">
         <TagBtn name="Team Members" />
       </div>
 
@@ -45,7 +45,7 @@ const Team = () => {
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className=" rounded-md overflow-hidden bg-card shadow-md hover:shadow-lg transition duration-300"
+            className=" rounded-sm overflow-hidden bg-card shadow-md hover:shadow-lg transition duration-300"
           >
 
             <div className="relative w-full h-56">

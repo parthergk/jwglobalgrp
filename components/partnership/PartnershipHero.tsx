@@ -4,16 +4,18 @@ import TagBtn from "../TagBtn"
 const Story = () => {
   return (
     <section className=" py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
-      <TagBtn name="Partnerships" />
+      <div className="mb-3 sm:mb-4">
+        <TagBtn name="Partnerships" />
+      </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
 
         <div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary leading-tight">
             Building Strong Global Collaborations
           </h1>
 
-          <div className="w-full h-px bg-divider my-6"></div>
+          <div className="w-full h-px bg-divider my-5 sm:my-6"></div>
 
           <p className=" text-text-secondary text-sm sm:text-base leading-relaxed max-w-xl">
             Strategic partnerships play a vital role in the growth of JW Global

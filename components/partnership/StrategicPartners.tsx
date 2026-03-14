@@ -20,9 +20,7 @@ const StrategicPartners = () => {
   return (
     <section className="py-16 px-4 sm:px-8 lg:px-10">
 
-      <div className="max-w-7xl mx-auto">
-
-        <div className="mb-12">
+      <div className="mb-4 sm:mb-6">
           <TagBtn name="Strategic Partners" />
         </div>
 
@@ -31,10 +29,9 @@ const StrategicPartners = () => {
           {partners.map((partner, index) => (
             <div
               key={index}
-              className="group border border-divider rounded-xl overflow-hidden bg-card hover:shadow-lg transition"
+              className="group border border-divider rounded-sm overflow-hidden bg-card hover:shadow-lg transition"
             >
 
-              {/* IMAGE AREA */}
               <div className="relative w-full h-44 bg-muted">
                 <Image
                   src={partner.image}
@@ -44,25 +41,20 @@ const StrategicPartners = () => {
                 />
               </div>
 
-              {/* CONTENT */}
-              <div className="p-6 space-y-4">
+              <div className="p-4 space-y-4">
 
-                {/* LABEL */}
                 <span className="text-xs uppercase tracking-wide text-accent font-medium">
                   {partner.label}
                 </span>
 
-                {/* NAME */}
                 <h3 className="text-xl font-semibold text-primary leading-snug">
                   {partner.name}
                 </h3>
 
-                {/* DESCRIPTION */}
                 <p className="text-sm text-text-secondary leading-relaxed">
                   {partner.description}
                 </p>
 
-                {/* FOCUS AREAS */}
                 <div className="pt-3 border-t border-divider">
 
                   <p className="text-sm font-medium text-primary mb-2">
@@ -86,8 +78,6 @@ const StrategicPartners = () => {
           ))}
 
         </div>
-
-      </div>
 
     </section>
   )
