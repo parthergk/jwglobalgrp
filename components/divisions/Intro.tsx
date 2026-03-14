@@ -72,7 +72,6 @@ const Intro = () => {
                                 className="object-cover rounded-md"
                             />
                         </div>
-                        {/* Content */}
                         <div className="flex flex-col grow px-4">
 
                             <h3 className="text-primary font-semibold text-lg mt-4 mb-1">
@@ -83,7 +82,6 @@ const Intro = () => {
                                 {item.desc}
                             </p>
 
-                            {/* Read More */}
                             <Link
                                 href={`/division/${item.slug}`}
                                 className="text-sm font-medium text-primary hover:underline mt-auto"

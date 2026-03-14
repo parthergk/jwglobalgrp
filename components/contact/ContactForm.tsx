@@ -31,7 +31,6 @@ const ContactForm = () => {
 
     console.log(form)
 
-    // reset form
     setForm({
       name: "",
       email: "",
@@ -40,7 +39,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="border border-divider rounded-xl bg-card p-6">
+    <div className="border border-divider rounded-sm bg-card p-6">
 
       <form onSubmit={handleSubmit} className="space-y-4">
 
@@ -55,7 +54,7 @@ const ContactForm = () => {
             value={form.name}
             required
             onChange={handleChange}
-            className="w-full mt-2 border border-divider rounded-lg px-4 py-2 bg-transparent text-sm"
+            className="w-full mt-2 border border-divider rounded-sm px-4 py-2 bg-transparent text-sm"
           />
         </div>
 
@@ -70,7 +69,7 @@ const ContactForm = () => {
             value={form.email}
             required
             onChange={handleChange}
-            className="w-full mt-2 border border-divider rounded-lg px-4 py-2 bg-transparent text-sm"
+            className="w-full mt-2 border border-divider rounded-sm px-4 py-2 bg-transparent text-sm"
           />
         </div>
 
@@ -85,13 +84,13 @@ const ContactForm = () => {
             value={form.message}
             required
             onChange={handleChange}
-            className="w-full mt-2 border border-divider rounded-lg px-4 py-2 bg-transparent text-sm"
+            className="w-full mt-2 border border-divider rounded-sm px-4 py-2 bg-transparent text-sm"
           />
         </div>
 
         <button
           type="submit"
-          className="w-full bg-primary text-white py-2 rounded-lg text-sm font-medium hover:opacity-90 transition"
+          className="w-full bg-primary text-white py-2 rounded-sm text-sm font-medium hover:opacity-90 transition"
         >
           Send Message
         </button>

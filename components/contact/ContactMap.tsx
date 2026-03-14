@@ -4,11 +4,11 @@ const ContactMap = () => {
   return (
     <section className="py-16 px-4 sm:px-8 lg:px-10">
 
-      <div className="max-w-7xl mx-auto space-y-8">
-
+      <div className="mb-4 sm:mb-6">
         <TagBtn name="Location" />
+      </div>
 
-        <h2 className="text-2xl md:text-3xl font-semibold text-primary">
+        <h2 className="text-2xl md:text-3xl font-semibold text-primary mb-5 sm:mb-6">
           Find Our Office
         </h2>
 
@@ -24,7 +24,6 @@ const ContactMap = () => {
 
         </div>
 
-      </div>
 
     </section>
   )

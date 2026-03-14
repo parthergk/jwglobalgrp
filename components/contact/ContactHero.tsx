@@ -4,11 +4,11 @@ const ContactHero = () => {
   return (
     <section className="py-16 px-4 sm:px-8 lg:px-10">
 
-      <div className="flex justify-center mb-6">
+            <div className="flex justify-center mb-3 sm:mb-4">
         <TagBtn name="Divisions" />
       </div>
 
-      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary text-center mb-6">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary text-center mb-5 sm:mb-6">
         Get In Touch With Our Team
       </h2>
 

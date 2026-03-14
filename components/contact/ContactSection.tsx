@@ -4,23 +4,23 @@ import { Mail, MapPin, Phone } from "lucide-react"
 import ContactForm from "./ContactForm"
 
 const ContactSection = () => {
- 
+
 
   return (
     <section className="py-16 px-4 sm:px-8 lg:px-10">
 
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12">
+      <div className="grid lg:grid-cols-2 gap-12">
 
-        {/* CONTACT INFO */}
         <div className="space-y-6">
+          <div className="mb-3 sm:mb-4">
+            <TagBtn name="Contact Information" />
+          </div>
 
-          <TagBtn name="Contact Information" />
-
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary leading-tight ">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary leading-tight mb-5 sm:mb-6">
             Reach Out To Us
           </h2>
 
-          <p className="text-text-secondary">
+          <p className="text-sm sm:text-base text-text-secondary mb-8 sm:mb-16">
             If you have any questions about our services, partnerships,
             or career opportunities, feel free to contact us.
           </p>
@@ -74,8 +74,7 @@ const ContactSection = () => {
 
         </div>
 
-        {/* CONTACT FORM */}
-        <ContactForm/>
+        <ContactForm />
       </div>
 
     </section>
