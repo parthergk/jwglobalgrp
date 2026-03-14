@@ -13,7 +13,7 @@ const LeadershipPhilosophy = () => {
                         Guiding Principles Behind Our Leadership
                     </h2>
 
-                    <p className="text-text-secondary leading-relaxed max-w-xl">
+                    <p className="text-sm sm:text-base text-text-secondary leading-relaxed max-w-xl">
                         At JW Global Group, leadership is driven by collaboration,
                         strategic thinking, and a commitment to long-term growth.
                         Our leadership team works closely across divisions to build

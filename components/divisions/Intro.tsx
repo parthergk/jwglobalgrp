@@ -54,7 +54,7 @@ const Intro = () => {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary leading-tight text-center mb-5 sm:mb-6">
                 Building Businesses <br /> Across Diverse Industries
             </h1>
-            <p className="text-center text-text-secondary max-w-3xl mx-auto mb-8 sm:mb-16">
+            <p className="text-sm sm:text-base text-center text-text-secondary max-w-3xl mx-auto mb-8 sm:mb-16">
                 JW Global Group develops and manages multiple ventures across sectors including food services, workforce development, agriculture trading, real estate, media initiatives, and community projects. Each division operates with a focused approach while contributing to the group’s overall vision of sustainable growth and opportunity creation.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-12">

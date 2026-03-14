@@ -4,7 +4,7 @@ const ContactHero = () => {
   return (
     <section className="py-16 px-4 sm:px-8 lg:px-10">
 
-            <div className="flex justify-center mb-3 sm:mb-4">
+      <div className="flex justify-center mb-3 sm:mb-4">
         <TagBtn name="Divisions" />
       </div>
 
@@ -12,7 +12,7 @@ const ContactHero = () => {
         Get In Touch With Our Team
       </h2>
 
-      <p className="text-center text-text-secondary max-w-3xl mx-auto">
+      <p className="text-sm sm:text-base text-center text-text-secondary max-w-3xl mx-auto">
         We welcome inquiries from individuals, businesses, and organizations
         interested in learning more about JW Global Group, our services,
         partnerships, and career opportunities. Our team will be happy to

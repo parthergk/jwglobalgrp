@@ -34,8 +34,8 @@ const ContactSection = () => {
               </div>
 
               <div>
-                <h4 className="text-primary font-semibold">Email</h4>
-                <p className="text-text-secondary">
+                <h4 className="text-primary font-semibold text-base sm:text-lg">Email</h4>
+                <p className="text-text-secondary text-sm sm:text-base">
                   jwglobalgroup@gmail.com
                 </p>
               </div>
@@ -48,8 +48,8 @@ const ContactSection = () => {
               </div>
 
               <div>
-                <h4 className="text-primary font-semibold">Phone</h4>
-                <p className="text-text-secondary">
+                <h4 className="text-primary font-semibold text-base sm:text-lg">Phone</h4>
+                <p className="text-text-secondary text-sm sm:text-base">
                   +91 7900 62 8888
                 </p>
               </div>
@@ -62,8 +62,8 @@ const ContactSection = () => {
               </div>
 
               <div>
-                <h4 className="text-primary font-semibold">Address</h4>
-                <p className="text-text-secondary max-w-sm">
+                <h4 className="text-primary font-semibold text-base sm:text-lg">Address</h4>
+                <p className="text-text-secondary max-w-sm text-sm sm:text-base">
                   Manpur Road, Kachnal Gaji Near Power House Kashipur – 244713
                   Uttarakhand, India
                 </p>
