@@ -12,12 +12,16 @@ const whyUs = [
     {
         title: "Global Opportunities",
         description: "Connections with international employers and career pathways abroad.",
-        
+
     },
     {
         title: "Collaborative Environment",
         description: "Work with a team that values innovation, teamwork, and responsibility.",
 
+    },
+    {
+        title: "Diverse Industry Exposure",
+        description: "Gain hands-on experience across multiple sectors including food services, workforce development, agriculture trade, real estate, and media initiatives.",
     }
 ]
 const WhyUs = () => {
@@ -39,30 +43,33 @@ const WhyUs = () => {
             </p>
 
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 my-5 sm:my-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6 my-5 sm:my-6">
 
-                {whyUs.map((item, index) => (
-                    <div
-                        key={index}
-                        className="bg-card rounded-sm hover:-translate-y-1 transition duration-300 border border-divider p-4 "
-                    >
+                {whyUs.map((item, index) => {
 
-                        <h3 className="text-primary font-semibold text-lg mb-3">
-                            {item.title}
-                        </h3>
+                    let spanClass = "lg:col-span-2"
 
-                        <p className="text-text-secondary text-sm leading-relaxed mb-4">
-                            {item.description}
-                        </p>
+                    if (index === 3 || index === 4) {
+                        spanClass = "lg:col-span-3"
+                    }
 
-                        {/* <ul className="space-y-1 text-sm text-text-secondary">
-                            {item.highlights.map((item, i) => (
-                                <li key={i}>• {item}</li>
-                            ))}
-                        </ul> */}
+                    return (
+                        <div
+                            key={index}
+                            className={`bg-card border border-divider rounded-sm p-6 hover:-translate-y-1 transition duration-300 ${spanClass}`}
+                        >
 
-                    </div>
-                ))}
+                            <h3 className="text-primary font-semibold text-lg mb-3">
+                                {item.title}
+                            </h3>
+
+                            <p className="text-text-secondary text-sm leading-relaxed">
+                                {item.description}
+                            </p>
+
+                        </div>
+                    )
+                })}
 
             </div>
 
