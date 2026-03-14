@@ -47,21 +47,21 @@ const Purpose = () => {
 
       <div className="max-w-6xl mx-auto">
 
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center mb-3 sm:mb-4">
           <TagBtn name="Our Purpose" />
         </div>
 
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary text-center">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary text-center mb-5 sm:mb-6">
           Guided by Vision. Driven by Purpose.
         </h2>
 
-        <p className="text-text-secondary text-center max-w-3xl mx-auto mt-5">
+        <p className="text-sm sm:text-base text-text-secondary text-center max-w-3xl mx-auto mb-8 sm:mb-16">
           To become a globally recognized business group that builds innovative
           and sustainable enterprises while creating opportunities for
           communities and future generations.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-12 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-12">
 
           {purposes.map((item, index) => {
             const Icon = item.icon

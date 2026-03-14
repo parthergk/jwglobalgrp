@@ -5,7 +5,7 @@ const Partnerships = () => {
   return (
     <section className="py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
 
-      <div className="mb-6">
+      <div className="mb-3 sm:mb-4">
         <TagBtn name="Partnership" />
       </div>
 
@@ -13,17 +13,17 @@ const Partnerships = () => {
         Strategic Partnerships That Expand Global Opportunities
       </h2>
 
-      <p className="text-text-secondary max-w-2xl mt-4">
+      <p className="text-sm sm:text-base text-text-secondary max-w-2xl my-5 sm:my-6">
         JW Global Group actively collaborates with organizations and industry
         partners to expand business opportunities and strengthen
         international connections.
       </p>
 
-      <div className="border-t border-divider my-12"></div>
+      <div className="border-t border-divider my-5 sm:my-6"></div>
 
       <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1px_1fr] gap-8 items-stretch">
 
-        <div className="relative w-full h-75 sm:h-90  rounded-lg overflow-hidden">
+        <div className="relative w-full h-75 sm:h-90  rounded-sm overflow-hidden">
           <Image
             src="/hero.png"
             alt="Strategic partnership meeting"
@@ -34,7 +34,7 @@ const Partnerships = () => {
 
         <div className="hidden lg:block bg-divider w-px"></div>
 
-        <div className="bg-[#D1D5DB] rounded-lg p-8 flex flex-col justify-center">
+        <div className="bg-[#D1D5DB] rounded-sm p-4 sm:p-6 flex flex-col justify-center">
 
           <p className="text-text-secondary text-sm mb-4">
             Strategic Partner

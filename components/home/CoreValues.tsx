@@ -35,11 +35,11 @@ const CoreValues = () => {
     return (
         <section className="py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
 
-            <div className="flex justify-center mb-6">
+            <div className="flex justify-center mb-3 sm:mb-4">
                 <TagBtn name="Core Values" />
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary mb-16 text-center">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary mb-10 sm:mb-12 text-center">
                 Values That Define JW Global Group
             </h2>
 

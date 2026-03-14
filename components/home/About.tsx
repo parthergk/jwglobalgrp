@@ -5,10 +5,11 @@ const About = () => {
     return (
         <section className=" py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
 
+            <div className="mb-3 sm:mb-4">
+                <TagBtn name="About us" />
+            </div>
 
-            <TagBtn name="About us" />
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 mt-6 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
 
                 <div>
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary leading-tight">
@@ -16,7 +17,7 @@ const About = () => {
                         Across Multiple Industries
                     </h1>
 
-                    <div className="w-full h-px bg-divider my-6"></div>
+                    <div className="w-full h-px bg-divider my-5 sm:my-6"></div>
 
                     <p className=" text-text-secondary text-sm sm:text-base leading-relaxed max-w-xl">
                         JW Global Group is a multi-sector business organization focused on
@@ -30,7 +31,7 @@ const About = () => {
 
                 <div className="relative lg:border-l border-divider lg:pl-10">
 
-                    <div className="relative w-full h-65 sm:h-80 lg:h-85 rounded-xl overflow-hidden">
+                    <div className="relative w-full h-65 sm:h-80 lg:h-85 rounded-sm overflow-hidden">
                         <Image
                             src="/hero.png"
                             alt="Business meeting"

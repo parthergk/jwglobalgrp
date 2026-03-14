@@ -37,14 +37,14 @@ const divisions = [
 const Divisions = () => {
     return (
         <section className="py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
-            <div className="flex justify-center mb-6">
+            <div className="flex justify-center mb-3 sm:mb-4">
                 <TagBtn name="Divisions" />
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary text-center mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary text-center mb-5 sm:mb-6">
                 Businesses That Drive Our Growth
             </h2>
-            <p className="text-center text-text-secondary max-w-3xl mx-auto mb-14">
+            <p className="text-sm sm:text-base text-center text-text-secondary max-w-3xl mx-auto mb-8 sm:mb-16">
                 JW Global Group operates through multiple business divisions across
                 food services, workforce development, agriculture trade, real estate,
                 media, and community initiatives.
@@ -53,7 +53,7 @@ const Divisions = () => {
                 {divisions.map((item, index) => (
                     <div key={index} className=" flex flex-col gap-3 hover:-translate-y-0.5 transition">
                         <div className="flex gap-2 items-end">
-                            <div className="w-12 h-12 rounded-md bg-divider flex items-center justify-center shrink-0">
+                            <div className="w-12 h-12 rounded-sm bg-divider flex items-center justify-center shrink-0">
                                 <Image
                                     src={item.logo}
                                     alt={item.title}
