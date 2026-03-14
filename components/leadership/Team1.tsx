@@ -48,7 +48,6 @@ const Team1 = () => {
             className="group relative rounded-md overflow-hidden border border-divider"
           >
 
-            {/* Image */}
             <div className="relative w-full h-64">
               <Image
                 src={member.image}
@@ -58,8 +57,7 @@ const Team1 = () => {
               />
             </div>
 
-            {/* Bottom Info */}
-            <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-5 text-white">
+            <div className="absolute bottom-0 left-0 w-full bg-linear-to-t from-black/80 to-transparent p-5 text-white">
 
               <h3 className="text-lg font-semibold">
                 {member.name}
@@ -71,7 +69,6 @@ const Team1 = () => {
 
             </div>
 
-            {/* Hover Description */}
             <div className="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center p-6 text-center">
 
               <p className="text-white text-sm leading-relaxed">
