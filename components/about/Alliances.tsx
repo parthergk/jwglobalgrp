@@ -28,7 +28,7 @@ const Alliances = () => {
   return (
     <section className="py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
 
-      <div className="mb-6">
+      <div className="mb-3 sm:mb-4">
         <TagBtn name="Certificates" />
       </div>
 
@@ -36,7 +36,7 @@ const Alliances = () => {
         Certifications & Strategic Alliances
       </h2>
 
-      <div className="w-full h-px bg-divider my-6"></div>
+      <div className="w-full h-px bg-divider my-5 sm:my-6"></div>
 
       <p className="text-text-secondary text-sm sm:text-base leading-relaxed max-w-2xl">
         JW Global Group collaborates with trusted organizations and
@@ -46,12 +46,12 @@ const Alliances = () => {
       </p>
 
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-8 lg:mt-16">
 
         {certificates.map((item, index) => (
           <div
             key={index}
-            className="border border-divider rounded-xl overflow-hidden bg-card hover:shadow-md transition"
+            className="border border-divider rounded-sm overflow-hidden bg-card hover:shadow-md transition"
           >
 
             <div className="relative w-full h-48">
@@ -64,7 +64,7 @@ const Alliances = () => {
             </div>
 
 
-            <div className="p-5 space-y-2">
+            <div className="p-4 space-y-2">
 
               <h3 className="text-primary font-semibold text-lg">
                 {item.title}

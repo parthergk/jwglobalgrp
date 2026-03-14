@@ -23,7 +23,7 @@ const stats = [
 const Foundation = () => {
   return (
     <section className="py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
-      <div className="mb-6">
+      <div className="mb-3 sm:mb-4">
         <TagBtn name="Social Impact" />
       </div>
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary leading-tight">
@@ -31,7 +31,7 @@ const Foundation = () => {
         Prakriti Seva Foundation
       </h2>
 
-      <div className="w-full h-px bg-divider my-6"></div>
+      <div className="w-full h-px bg-divider my-5 sm:my-6"></div>
 
       <div className="space-y-4">
         <p className="text-text-secondary text-sm sm:text-base leading-relaxed max-w-2xl">
@@ -47,10 +47,10 @@ const Foundation = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 mt-12 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 mt-8 sm:mt-12 items-start">
 
         <div className="relative lg:border-r border-divider lg:pr-10">
-          <div className="relative w-full h-72 sm:h-80 rounded-xl overflow-hidden">
+          <div className="relative w-full h-72 sm:h-80 rounded-sm overflow-hidden">
             <Image
               src="/hero.png"
               alt="Jeevan Rakshak Prakriti Seva Foundation"
@@ -66,7 +66,7 @@ const Foundation = () => {
           {stats.map((item, index) => (
             <div
               key={index}
-              className="p-4 rounded-md border border-divider bg-card hover:shadow-md transition"
+              className="p-4 rounded-sm border border-divider bg-card hover:shadow-md transition"
             >
               <h3 className="text-lg font-semibold text-primary mb-2">
                 {item.title}

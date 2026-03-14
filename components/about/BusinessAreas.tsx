@@ -22,11 +22,11 @@ const areas = [
 const BusinessAreas = () => {
     return (
         <section className=" py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
-            <div className="flex justify-center mb-6">
+            <div className="flex justify-center mb-3 sm:mb-4">
                 <TagBtn name="What We Do" />
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary mb-16 text-center">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary mb-10 sm:mb-12 text-center">
                 Our Business Areas
             </h2>
 
@@ -34,9 +34,9 @@ const BusinessAreas = () => {
                 {areas.map((area, index) => (
                     <div
                         key={index}
-                        className="p-4 rounded-md border border-divider bg-card hover:shadow-md transition"
+                        className="p-4 rounded-sm border border-divider bg-card hover:shadow-md transition"
                     >
-                            <h3 className="text-lg font-semibold text-primary mb-3">
+                            <h3 className="text-lg font-semibold text-primary mb-2 sm:mb-3">
                             {area.title}
                         </h3>
                             <p className="text-text-secondary text-sm leading-relaxed max-w-xs">
