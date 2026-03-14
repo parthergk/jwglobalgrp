@@ -61,7 +61,7 @@ const Upcoming = () => {
     return (
         <section className="py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
 
-            <div className="mb-6">
+            <div className="mb-3 sm:mb-4">
                 <TagBtn name="Upcoming Projects" />
             </div>
 
@@ -69,19 +69,19 @@ const Upcoming = () => {
                 Expanding Into New Opportunities
             </h2>
 
-            <div className="w-full h-px bg-divider my-6"></div>
+            <div className="w-full h-px bg-divider my-5 sm:my-6"></div>
 
             <p className="text-text-secondary text-sm sm:text-base leading-relaxed max-w-2xl">
                 JW Global Group continues to expand into new sectors including agriculture, food processing, international trade, and e-commerce initiatives. These projects aim to create employment opportunities while contributing to sustainable economic development.
             </p>
 
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 my-5 sm:my-6">
 
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className="bg-card p-6 rounded-xl hover:-translate-y-1 transition duration-300"
+                        className="bg-card rounded-sm hover:-translate-y-1 transition duration-300 border border-divider p-4 "
                     >
 
                         <h3 className="text-primary font-semibold text-lg mb-3">
