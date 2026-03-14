@@ -7,7 +7,12 @@ const partners = [
     name: "Chardikla Technical Services LLC (Dubai)",
     description:
       "Chardikla Technical Services LLC is an international partner involved in skill-based workforce development and overseas placement services. Through this collaboration, JW Global Group supports professional training and employment opportunities for individuals seeking careers abroad.",
-    image: "/partners/chardikla.png"
+    image: "/hero.png",
+    focus: [
+      "Skill-based workforce training",
+      "Overseas job placement",
+      "International career opportunities"
+    ]
   }
 ]
 
@@ -26,29 +31,56 @@ const StrategicPartners = () => {
           {partners.map((partner, index) => (
             <div
               key={index}
-              className="border border-divider rounded-xl bg-card p-6 hover:shadow-md transition"
+              className="group border border-divider rounded-xl overflow-hidden bg-card hover:shadow-lg transition"
             >
 
-              <div className="relative w-full h-16 mb-6">
+              {/* IMAGE AREA */}
+              <div className="relative w-full h-44 bg-muted">
                 <Image
                   src={partner.image}
                   alt={partner.name}
                   fill
-                  className="object-contain"
+                  className="object-cover group-hover:scale-105 transition duration-500"
                 />
               </div>
 
-              <p className="text-xs uppercase tracking-wide text-accent mb-2">
-                {partner.label}
-              </p>
+              {/* CONTENT */}
+              <div className="p-6 space-y-4">
 
-              <h3 className="text-lg font-semibold text-primary mb-3">
-                {partner.name}
-              </h3>
+                {/* LABEL */}
+                <span className="text-xs uppercase tracking-wide text-accent font-medium">
+                  {partner.label}
+                </span>
 
-              <p className="text-sm text-text-secondary leading-relaxed">
-                {partner.description}
-              </p>
+                {/* NAME */}
+                <h3 className="text-xl font-semibold text-primary leading-snug">
+                  {partner.name}
+                </h3>
+
+                {/* DESCRIPTION */}
+                <p className="text-sm text-text-secondary leading-relaxed">
+                  {partner.description}
+                </p>
+
+                {/* FOCUS AREAS */}
+                <div className="pt-3 border-t border-divider">
+
+                  <p className="text-sm font-medium text-primary mb-2">
+                    Focus Areas
+                  </p>
+
+                  <ul className="text-sm text-text-secondary space-y-1">
+                    {partner.focus.map((item, i) => (
+                      <li key={i} className="flex gap-2">
+                        <span className="mt-1.5 w-1.5 h-1.5 bg-accent rounded-full"></span>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+
+                </div>
+
+              </div>
 
             </div>
           ))}

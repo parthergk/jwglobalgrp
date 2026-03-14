@@ -6,7 +6,7 @@ const Story = () => {
     <section className=" py-10 md:py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
       <TagBtn name="Partnerships" />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 mt-6 items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
         <div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary leading-tight">
