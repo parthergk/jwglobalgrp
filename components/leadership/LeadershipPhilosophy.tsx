@@ -3,11 +3,12 @@ import TagBtn from '../TagBtn'
 const LeadershipPhilosophy = () => {
     return (
         <section className="py-16 lg:py-20 px-4 sm:px-8 lg:px-10">
+            <div className="mb-3 sm:mb-4">
 
-            <TagBtn name="Leadership Philosophy" />
-            <div className="grid lg:grid-cols-2 gap-16 items-start mt-6">
-
-                <div className=' space-y-6'>
+                <TagBtn name="Leadership Philosophy" />
+            </div>
+            <div className="grid lg:grid-cols-2 gap-10 sm:gap-12 items-start">
+                <div className=' space-y-5 sm:space-y-6'>
                     <h2 className="text-3xl md:text-4xl font-semibold text-primary leading-tight">
                         Guiding Principles Behind Our Leadership
                     </h2>
@@ -24,7 +25,7 @@ const LeadershipPhilosophy = () => {
 
                 <div className="space-y-6">
 
-                    <div className="p-6 border border-divider rounded-xl bg-card">
+                    <div className="p-4 border border-divider rounded-sm bg-card">
                         <h3 className="text-lg font-semibold text-primary mb-2">
                             Strategic Vision
                         </h3>
@@ -35,7 +36,7 @@ const LeadershipPhilosophy = () => {
                         </p>
                     </div>
 
-                    <div className="p-6 border border-divider rounded-xl bg-card">
+                    <div className="p-4 border border-divider rounded-sm bg-card">
                         <h3 className="text-lg font-semibold text-primary mb-2">
                             Collaboration & Partnerships
                         </h3>
@@ -46,7 +47,7 @@ const LeadershipPhilosophy = () => {
                         </p>
                     </div>
 
-                    <div className="p-6 border border-divider rounded-xl bg-card">
+                    <div className="p-4 border border-divider rounded-sm bg-card">
                         <h3 className="text-lg font-semibold text-primary mb-2">
                             Operational Excellence
                         </h3>

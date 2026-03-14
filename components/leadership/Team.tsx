@@ -34,18 +34,18 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <section className="pb-10 md:pb-16 lg:pb-20 px-4 sm:px-8 lg:px-10">
+    <section className=" pt-5 pb-10 md:pt-8 lg:pt-10 md:pb-16 lg:pb-20  px-4 sm:px-8 lg:px-10">
 
-      <div className="mb-6">
+      <div className="mb-3 sm:mb-4">
         <TagBtn name="Team Members" />
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 ">
 
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className="bg-divider rounded-md overflow-hidden bg-card hover:shadow-lg transition duration-300"
+            className=" rounded-md overflow-hidden bg-card shadow-md hover:shadow-lg transition duration-300"
           >
 
             <div className="relative w-full h-56">
@@ -63,7 +63,7 @@ const Team = () => {
                 {member.name}
               </h3>
 
-              <p className="text-sm text-accent font-medium">
+              <p className=" text-sm text-accent font-medium">
                 {member.role}
               </p>
 
