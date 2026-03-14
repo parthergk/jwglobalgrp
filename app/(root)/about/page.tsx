@@ -8,8 +8,8 @@ import Story from '@/components/about/Story'
 const page = () => {
   return (
     <div className="w-full bg-background space-y-4 lg:space-y-8 xl:space-y-20">
-
-      <Hero first="About" second="JW Global Group" />      <Achivements />
+      <Hero first="About" second="JW Global Group" />
+      <Achivements />
       <Story />
       <BusinessAreas />
       <Foundation />
